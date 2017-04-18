@@ -1,7 +1,7 @@
 # Samples
 
 ## Eventbus
-The simples implementation of EventBus design pattern.
+The simplest implementation of EventBus design pattern.
 
 To connection handler:
 ```java
