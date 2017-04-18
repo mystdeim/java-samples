@@ -1,0 +1,22 @@
+group 'com.runovikov'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+ext {
+    slf4j = "1.7.+"
+    junit = "4.+"
+    mockito = "2.7.+"
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile "org.slf4j:slf4j-api:$slf4j"
+    compile "org.slf4j:slf4j-simple:$slf4j"
+
+    testCompile "junit:junit:$junit"
+    testCompile "org.mockito:mockito-core:$mockito"
+}
